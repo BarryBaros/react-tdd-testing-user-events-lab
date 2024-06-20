@@ -20,7 +20,7 @@ test("displays an image of yourself", () => {
 
   const image = screen.getByAltText("My profile pic");
 
-  expect(image).toHaveAttribute("src", "https://via.placeholder.com/350");
+  expect(image).toHaveAttribute("src", "Tim.jpg");
 });
 
 test("displays second-level heading with the text `About Me`", () => {
